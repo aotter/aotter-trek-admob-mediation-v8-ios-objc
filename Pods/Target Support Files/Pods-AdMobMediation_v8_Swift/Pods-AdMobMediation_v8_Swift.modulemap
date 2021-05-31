@@ -1,0 +1,6 @@
+framework module Pods_AdMobMediation_v8_Swift {
+  umbrella header "Pods-AdMobMediation_v8_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

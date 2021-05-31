@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AFA6032664BCBF00D39ACA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6022664BCBF00D39ACA /* AppDelegate.m */; };
+		08AFA6062664BCBF00D39ACA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6052664BCBF00D39ACA /* SceneDelegate.m */; };
+		08AFA6092664BCBF00D39ACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6082664BCBF00D39ACA /* ViewController.m */; };
+		08AFA60C2664BCBF00D39ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA60A2664BCBF00D39ACA /* Main.storyboard */; };
+		08AFA60E2664BCC000D39ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA60D2664BCC000D39ACA /* Assets.xcassets */; };
+		08AFA6112664BCC000D39ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA60F2664BCC000D39ACA /* LaunchScreen.storyboard */; };
+		08AFA6142664BCC000D39ACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6132664BCC000D39ACA /* main.m */; };
+		08AFA6222664BDB900D39ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6212664BDB900D39ACA /* AppDelegate.swift */; };
+		08AFA6242664BDB900D39ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6232664BDB900D39ACA /* SceneDelegate.swift */; };
+		08AFA6262664BDB900D39ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6252664BDB900D39ACA /* ViewController.swift */; };
+		08AFA6292664BDB900D39ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA6272664BDB900D39ACA /* Main.storyboard */; };
+		08AFA62B2664BDBB00D39ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA62A2664BDBB00D39ACA /* Assets.xcassets */; };
+		08AFA62E2664BDBB00D39ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA62C2664BDBB00D39ACA /* LaunchScreen.storyboard */; };
+		08AFA6682664BF0200D39ACA /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA6502664BF0200D39ACA /* UnifiedNativeAdView.xib */; };
+		08AFA6692664BF0200D39ACA /* TrekSuprAdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6522664BF0200D39ACA /* TrekSuprAdTableViewCell.m */; };
+		08AFA66A2664BF0200D39ACA /* TrekNativeAdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6532664BF0200D39ACA /* TrekNativeAdTableViewCell.m */; };
+		08AFA66B2664BF0200D39ACA /* TrekNativeAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA6562664BF0200D39ACA /* TrekNativeAdTableViewCell.xib */; };
+		08AFA66C2664BF0200D39ACA /* TrekSuprAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA6572664BF0200D39ACA /* TrekSuprAdTableViewCell.xib */; };
+		08AFA66D2664BF0200D39ACA /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA65A2664BF0200D39ACA /* NativeAdViewController.m */; };
+		08AFA66E2664BF0200D39ACA /* NativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA65B2664BF0200D39ACA /* NativeAdViewController.xib */; };
+		08AFA66F2664BF0200D39ACA /* AdItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA65D2664BF0200D39ACA /* AdItemViewController.xib */; };
+		08AFA6702664BF0200D39ACA /* SuprAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA6602664BF0200D39ACA /* SuprAdViewController.xib */; };
+		08AFA6712664BF0200D39ACA /* SuprAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6612664BF0200D39ACA /* SuprAdViewController.m */; };
+		08AFA6742664BF0200D39ACA /* AdItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA6672664BF0200D39ACA /* AdItemViewController.m */; };
+		08AFA67B2664BFD300D39ACA /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AFA67A2664BFD300D39ACA /* BannerViewController.m */; };
+		08AFA6802664C02F00D39ACA /* BannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AFA67F2664C02F00D39ACA /* BannerViewController.xib */; };
+		08D0894E2664C79A003CC049 /* UnifiedNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0893C2664C79A003CC049 /* UnifiedNativeAdView.xib */; };
+		08D0894F2664C79A003CC049 /* NativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0893F2664C79A003CC049 /* NativeAdViewController.xib */; };
+		08D089502664C79A003CC049 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D089402664C79A003CC049 /* NativeAdViewController.swift */; };
+		08D089512664C79A003CC049 /* AdItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D089412664C79A003CC049 /* AdItemViewController.xib */; };
+		08D089522664C79A003CC049 /* SuprAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D089432664C79A003CC049 /* SuprAdViewController.xib */; };
+		08D089532664C79A003CC049 /* SuprAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D089442664C79A003CC049 /* SuprAdViewController.swift */; };
+		08D089542664C79A003CC049 /* AdItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D089452664C79A003CC049 /* AdItemViewController.swift */; };
+		08D089572664C79A003CC049 /* TrekSuprAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D0894A2664C79A003CC049 /* TrekSuprAdTableViewCell.swift */; };
+		08D089582664C79A003CC049 /* TrekNativeAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0894B2664C79A003CC049 /* TrekNativeAdTableViewCell.xib */; };
+		08D089592664C79A003CC049 /* TrekSuprAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0894C2664C79A003CC049 /* TrekSuprAdTableViewCell.xib */; };
+		08D0895A2664C79A003CC049 /* TrekNativeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D0894D2664C79A003CC049 /* TrekNativeAdTableViewCell.swift */; };
+		08D0896D2664C7E3003CC049 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D0896B2664C7E3003CC049 /* BannerViewController.swift */; };
+		08D0896E2664C7E3003CC049 /* BannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0896C2664C7E3003CC049 /* BannerViewController.xib */; };
+		2534A6874CB454BA4E111A19 /* Pods_AdMobMediation_v8_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE31A99DF46D9FF70854FC7 /* Pods_AdMobMediation_v8_Swift.framework */; };
+		77696F65829C1E20561E3B16 /* Pods_AdMobMediation_v8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152203F580B357B1BDD51AAB /* Pods_AdMobMediation_v8.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08AFA5FE2664BCBF00D39ACA /* AdMobMediation_v8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMobMediation_v8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AFA6012664BCBF00D39ACA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08AFA6022664BCBF00D39ACA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08AFA6042664BCBF00D39ACA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		08AFA6052664BCBF00D39ACA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		08AFA6072664BCBF00D39ACA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08AFA6082664BCBF00D39ACA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08AFA60B2664BCBF00D39ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08AFA60D2664BCC000D39ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08AFA6102664BCC000D39ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08AFA6122664BCC000D39ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AFA6132664BCC000D39ACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08AFA61F2664BDB900D39ACA /* AdMobMediation_v8_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMobMediation_v8_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AFA6212664BDB900D39ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08AFA6232664BDB900D39ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08AFA6252664BDB900D39ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08AFA6282664BDB900D39ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08AFA62A2664BDBB00D39ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08AFA62D2664BDBB00D39ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08AFA62F2664BDBB00D39ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AFA6352664BDCD00D39ACA /* AdMobMediation_v8_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdMobMediation_v8_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		08AFA6502664BF0200D39ACA /* UnifiedNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnifiedNativeAdView.xib; sourceTree = "<group>"; };
+		08AFA6522664BF0200D39ACA /* TrekSuprAdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrekSuprAdTableViewCell.m; sourceTree = "<group>"; };
+		08AFA6532664BF0200D39ACA /* TrekNativeAdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrekNativeAdTableViewCell.m; sourceTree = "<group>"; };
+		08AFA6542664BF0200D39ACA /* TrekNativeAdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrekNativeAdTableViewCell.h; sourceTree = "<group>"; };
+		08AFA6552664BF0200D39ACA /* TrekSuprAdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrekSuprAdTableViewCell.h; sourceTree = "<group>"; };
+		08AFA6562664BF0200D39ACA /* TrekNativeAdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrekNativeAdTableViewCell.xib; sourceTree = "<group>"; };
+		08AFA6572664BF0200D39ACA /* TrekSuprAdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrekSuprAdTableViewCell.xib; sourceTree = "<group>"; };
+		08AFA65A2664BF0200D39ACA /* NativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
+		08AFA65B2664BF0200D39ACA /* NativeAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdViewController.xib; sourceTree = "<group>"; };
+		08AFA65C2664BF0200D39ACA /* NativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
+		08AFA65D2664BF0200D39ACA /* AdItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdItemViewController.xib; sourceTree = "<group>"; };
+		08AFA65E2664BF0200D39ACA /* AdItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdItemViewController.h; sourceTree = "<group>"; };
+		08AFA6602664BF0200D39ACA /* SuprAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuprAdViewController.xib; sourceTree = "<group>"; };
+		08AFA6612664BF0200D39ACA /* SuprAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuprAdViewController.m; sourceTree = "<group>"; };
+		08AFA6622664BF0200D39ACA /* SuprAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuprAdViewController.h; sourceTree = "<group>"; };
+		08AFA6672664BF0200D39ACA /* AdItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdItemViewController.m; sourceTree = "<group>"; };
+		08AFA6792664BFD300D39ACA /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		08AFA67A2664BFD300D39ACA /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		08AFA67F2664C02F00D39ACA /* BannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerViewController.xib; sourceTree = "<group>"; };
+		08D0893C2664C79A003CC049 /* UnifiedNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnifiedNativeAdView.xib; sourceTree = "<group>"; };
+		08D0893F2664C79A003CC049 /* NativeAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdViewController.xib; sourceTree = "<group>"; };
+		08D089402664C79A003CC049 /* NativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
+		08D089412664C79A003CC049 /* AdItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdItemViewController.xib; sourceTree = "<group>"; };
+		08D089432664C79A003CC049 /* SuprAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuprAdViewController.xib; sourceTree = "<group>"; };
+		08D089442664C79A003CC049 /* SuprAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuprAdViewController.swift; sourceTree = "<group>"; };
+		08D089452664C79A003CC049 /* AdItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdItemViewController.swift; sourceTree = "<group>"; };
+		08D0894A2664C79A003CC049 /* TrekSuprAdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekSuprAdTableViewCell.swift; sourceTree = "<group>"; };
+		08D0894B2664C79A003CC049 /* TrekNativeAdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrekNativeAdTableViewCell.xib; sourceTree = "<group>"; };
+		08D0894C2664C79A003CC049 /* TrekSuprAdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrekSuprAdTableViewCell.xib; sourceTree = "<group>"; };
+		08D0894D2664C79A003CC049 /* TrekNativeAdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekNativeAdTableViewCell.swift; sourceTree = "<group>"; };
+		08D0896B2664C7E3003CC049 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		08D0896C2664C7E3003CC049 /* BannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerViewController.xib; sourceTree = "<group>"; };
+		152203F580B357B1BDD51AAB /* Pods_AdMobMediation_v8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMobMediation_v8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9274805CBD84063BA80403 /* Pods-AdMobMediation_v8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMobMediation_v8.release.xcconfig"; path = "Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8.release.xcconfig"; sourceTree = "<group>"; };
+		3DE31A99DF46D9FF70854FC7 /* Pods_AdMobMediation_v8_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMobMediation_v8_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A98F4202BDCEBF019B76650 /* Pods-AdMobMediation_v8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMobMediation_v8.debug.xcconfig"; path = "Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8.debug.xcconfig"; sourceTree = "<group>"; };
+		7B946CCAE7C63BC08031645B /* Pods-AdMobMediation_v8_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMobMediation_v8_Swift.debug.xcconfig"; path = "Target Support Files/Pods-AdMobMediation_v8_Swift/Pods-AdMobMediation_v8_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9D9B4AB9AB39DE0D3FC3F2 /* Pods-AdMobMediation_v8_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMobMediation_v8_Swift.release.xcconfig"; path = "Target Support Files/Pods-AdMobMediation_v8_Swift/Pods-AdMobMediation_v8_Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08AFA5FB2664BCBF00D39ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77696F65829C1E20561E3B16 /* Pods_AdMobMediation_v8.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AFA61C2664BDB900D39ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2534A6874CB454BA4E111A19 /* Pods_AdMobMediation_v8_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AFA5F52664BCBF00D39ACA = {
+			isa = PBXGroup;
+			children = (
+				08AFA6002664BCBF00D39ACA /* AdMobMediation_v8 */,
+				08AFA6202664BDB900D39ACA /* AdMobMediation_v8_Swift */,
+				08AFA5FF2664BCBF00D39ACA /* Products */,
+				F7A67637F5AF89BF50C3E9DA /* Pods */,
+				F2AEEA87FEA3D1E87A10EF89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08AFA5FF2664BCBF00D39ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA5FE2664BCBF00D39ACA /* AdMobMediation_v8.app */,
+				08AFA61F2664BDB900D39ACA /* AdMobMediation_v8_Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08AFA6002664BCBF00D39ACA /* AdMobMediation_v8 */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6512664BF0200D39ACA /* Cell */,
+				08AFA64F2664BF0200D39ACA /* UnifiedNativeAdView */,
+				08AFA6582664BF0200D39ACA /* ViewController */,
+				08AFA6012664BCBF00D39ACA /* AppDelegate.h */,
+				08AFA6022664BCBF00D39ACA /* AppDelegate.m */,
+				08AFA6042664BCBF00D39ACA /* SceneDelegate.h */,
+				08AFA6052664BCBF00D39ACA /* SceneDelegate.m */,
+				08AFA6072664BCBF00D39ACA /* ViewController.h */,
+				08AFA6082664BCBF00D39ACA /* ViewController.m */,
+				08AFA60A2664BCBF00D39ACA /* Main.storyboard */,
+				08AFA60D2664BCC000D39ACA /* Assets.xcassets */,
+				08AFA60F2664BCC000D39ACA /* LaunchScreen.storyboard */,
+				08AFA6122664BCC000D39ACA /* Info.plist */,
+				08AFA6132664BCC000D39ACA /* main.m */,
+			);
+			path = AdMobMediation_v8;
+			sourceTree = "<group>";
+		};
+		08AFA6202664BDB900D39ACA /* AdMobMediation_v8_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				08D089492664C79A003CC049 /* Cell */,
+				08D0893B2664C79A003CC049 /* UnifiedNativeAdView */,
+				08D0893D2664C79A003CC049 /* ViewController */,
+				08AFA6212664BDB900D39ACA /* AppDelegate.swift */,
+				08AFA6232664BDB900D39ACA /* SceneDelegate.swift */,
+				08AFA6252664BDB900D39ACA /* ViewController.swift */,
+				08AFA6272664BDB900D39ACA /* Main.storyboard */,
+				08AFA62A2664BDBB00D39ACA /* Assets.xcassets */,
+				08AFA62C2664BDBB00D39ACA /* LaunchScreen.storyboard */,
+				08AFA62F2664BDBB00D39ACA /* Info.plist */,
+				08AFA6352664BDCD00D39ACA /* AdMobMediation_v8_Swift-Bridging-Header.h */,
+			);
+			path = AdMobMediation_v8_Swift;
+			sourceTree = "<group>";
+		};
+		08AFA64F2664BF0200D39ACA /* UnifiedNativeAdView */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6502664BF0200D39ACA /* UnifiedNativeAdView.xib */,
+			);
+			path = UnifiedNativeAdView;
+			sourceTree = "<group>";
+		};
+		08AFA6512664BF0200D39ACA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6522664BF0200D39ACA /* TrekSuprAdTableViewCell.m */,
+				08AFA6532664BF0200D39ACA /* TrekNativeAdTableViewCell.m */,
+				08AFA6542664BF0200D39ACA /* TrekNativeAdTableViewCell.h */,
+				08AFA6552664BF0200D39ACA /* TrekSuprAdTableViewCell.h */,
+				08AFA6562664BF0200D39ACA /* TrekNativeAdTableViewCell.xib */,
+				08AFA6572664BF0200D39ACA /* TrekSuprAdTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		08AFA6582664BF0200D39ACA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6592664BF0200D39ACA /* NativeAd */,
+				08AFA65F2664BF0200D39ACA /* SuprAd */,
+				08AFA67E2664BFDC00D39ACA /* Banner */,
+				08AFA65D2664BF0200D39ACA /* AdItemViewController.xib */,
+				08AFA65E2664BF0200D39ACA /* AdItemViewController.h */,
+				08AFA6672664BF0200D39ACA /* AdItemViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		08AFA6592664BF0200D39ACA /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA65A2664BF0200D39ACA /* NativeAdViewController.m */,
+				08AFA65B2664BF0200D39ACA /* NativeAdViewController.xib */,
+				08AFA65C2664BF0200D39ACA /* NativeAdViewController.h */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		08AFA65F2664BF0200D39ACA /* SuprAd */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6602664BF0200D39ACA /* SuprAdViewController.xib */,
+				08AFA6612664BF0200D39ACA /* SuprAdViewController.m */,
+				08AFA6622664BF0200D39ACA /* SuprAdViewController.h */,
+			);
+			path = SuprAd;
+			sourceTree = "<group>";
+		};
+		08AFA67E2664BFDC00D39ACA /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				08AFA6792664BFD300D39ACA /* BannerViewController.h */,
+				08AFA67A2664BFD300D39ACA /* BannerViewController.m */,
+				08AFA67F2664C02F00D39ACA /* BannerViewController.xib */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		08D0893B2664C79A003CC049 /* UnifiedNativeAdView */ = {
+			isa = PBXGroup;
+			children = (
+				08D0893C2664C79A003CC049 /* UnifiedNativeAdView.xib */,
+			);
+			path = UnifiedNativeAdView;
+			sourceTree = "<group>";
+		};
+		08D0893D2664C79A003CC049 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08D0893E2664C79A003CC049 /* NativeAd */,
+				08D089422664C79A003CC049 /* SuprAd */,
+				08D0895F2664C7BA003CC049 /* Banner */,
+				08D089452664C79A003CC049 /* AdItemViewController.swift */,
+				08D089412664C79A003CC049 /* AdItemViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		08D0893E2664C79A003CC049 /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				08D0893F2664C79A003CC049 /* NativeAdViewController.xib */,
+				08D089402664C79A003CC049 /* NativeAdViewController.swift */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		08D089422664C79A003CC049 /* SuprAd */ = {
+			isa = PBXGroup;
+			children = (
+				08D089432664C79A003CC049 /* SuprAdViewController.xib */,
+				08D089442664C79A003CC049 /* SuprAdViewController.swift */,
+			);
+			path = SuprAd;
+			sourceTree = "<group>";
+		};
+		08D089492664C79A003CC049 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				08D0894A2664C79A003CC049 /* TrekSuprAdTableViewCell.swift */,
+				08D0894B2664C79A003CC049 /* TrekNativeAdTableViewCell.xib */,
+				08D0894C2664C79A003CC049 /* TrekSuprAdTableViewCell.xib */,
+				08D0894D2664C79A003CC049 /* TrekNativeAdTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		08D0895F2664C7BA003CC049 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				08D0896B2664C7E3003CC049 /* BannerViewController.swift */,
+				08D0896C2664C7E3003CC049 /* BannerViewController.xib */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		F2AEEA87FEA3D1E87A10EF89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152203F580B357B1BDD51AAB /* Pods_AdMobMediation_v8.framework */,
+				3DE31A99DF46D9FF70854FC7 /* Pods_AdMobMediation_v8_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A67637F5AF89BF50C3E9DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A98F4202BDCEBF019B76650 /* Pods-AdMobMediation_v8.debug.xcconfig */,
+				2A9274805CBD84063BA80403 /* Pods-AdMobMediation_v8.release.xcconfig */,
+				7B946CCAE7C63BC08031645B /* Pods-AdMobMediation_v8_Swift.debug.xcconfig */,
+				8D9D9B4AB9AB39DE0D3FC3F2 /* Pods-AdMobMediation_v8_Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AFA5FD2664BCBF00D39ACA /* AdMobMediation_v8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AFA6172664BCC000D39ACA /* Build configuration list for PBXNativeTarget "AdMobMediation_v8" */;
+			buildPhases = (
+				CBF7C55836C054EF542D9378 /* [CP] Check Pods Manifest.lock */,
+				08AFA5FA2664BCBF00D39ACA /* Sources */,
+				08AFA5FB2664BCBF00D39ACA /* Frameworks */,
+				08AFA5FC2664BCBF00D39ACA /* Resources */,
+				9ED524413DB96DD47A5D291B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMobMediation_v8;
+			productName = AdMobMediation_v8;
+			productReference = 08AFA5FE2664BCBF00D39ACA /* AdMobMediation_v8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08AFA61E2664BDB900D39ACA /* AdMobMediation_v8_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AFA6302664BDBB00D39ACA /* Build configuration list for PBXNativeTarget "AdMobMediation_v8_Swift" */;
+			buildPhases = (
+				F35CBFF5D75158D2DB8411DB /* [CP] Check Pods Manifest.lock */,
+				08AFA61B2664BDB900D39ACA /* Sources */,
+				08AFA61C2664BDB900D39ACA /* Frameworks */,
+				08AFA61D2664BDB900D39ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMobMediation_v8_Swift;
+			productName = AdMobMediation_v8_Swift;
+			productReference = 08AFA61F2664BDB900D39ACA /* AdMobMediation_v8_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08AFA5F62664BCBF00D39ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					08AFA5FD2664BCBF00D39ACA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					08AFA61E2664BDB900D39ACA = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 08AFA5F92664BCBF00D39ACA /* Build configuration list for PBXProject "AdMobMediation_v8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08AFA5F52664BCBF00D39ACA;
+			productRefGroup = 08AFA5FF2664BCBF00D39ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08AFA5FD2664BCBF00D39ACA /* AdMobMediation_v8 */,
+				08AFA61E2664BDB900D39ACA /* AdMobMediation_v8_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AFA5FC2664BCBF00D39ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AFA66B2664BF0200D39ACA /* TrekNativeAdTableViewCell.xib in Resources */,
+				08AFA6702664BF0200D39ACA /* SuprAdViewController.xib in Resources */,
+				08AFA6802664C02F00D39ACA /* BannerViewController.xib in Resources */,
+				08AFA6112664BCC000D39ACA /* LaunchScreen.storyboard in Resources */,
+				08AFA66C2664BF0200D39ACA /* TrekSuprAdTableViewCell.xib in Resources */,
+				08AFA60E2664BCC000D39ACA /* Assets.xcassets in Resources */,
+				08AFA66F2664BF0200D39ACA /* AdItemViewController.xib in Resources */,
+				08AFA66E2664BF0200D39ACA /* NativeAdViewController.xib in Resources */,
+				08AFA60C2664BCBF00D39ACA /* Main.storyboard in Resources */,
+				08AFA6682664BF0200D39ACA /* UnifiedNativeAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AFA61D2664BDB900D39ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D089592664C79A003CC049 /* TrekSuprAdTableViewCell.xib in Resources */,
+				08AFA62E2664BDBB00D39ACA /* LaunchScreen.storyboard in Resources */,
+				08D0896E2664C7E3003CC049 /* BannerViewController.xib in Resources */,
+				08AFA62B2664BDBB00D39ACA /* Assets.xcassets in Resources */,
+				08D089522664C79A003CC049 /* SuprAdViewController.xib in Resources */,
+				08D089582664C79A003CC049 /* TrekNativeAdTableViewCell.xib in Resources */,
+				08D089512664C79A003CC049 /* AdItemViewController.xib in Resources */,
+				08D0894F2664C79A003CC049 /* NativeAdViewController.xib in Resources */,
+				08AFA6292664BDB900D39ACA /* Main.storyboard in Resources */,
+				08D0894E2664C79A003CC049 /* UnifiedNativeAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ED524413DB96DD47A5D291B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF7C55836C054EF542D9378 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMobMediation_v8-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35CBFF5D75158D2DB8411DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMobMediation_v8_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08AFA5FA2664BCBF00D39ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AFA6092664BCBF00D39ACA /* ViewController.m in Sources */,
+				08AFA6032664BCBF00D39ACA /* AppDelegate.m in Sources */,
+				08AFA6142664BCC000D39ACA /* main.m in Sources */,
+				08AFA6062664BCBF00D39ACA /* SceneDelegate.m in Sources */,
+				08AFA67B2664BFD300D39ACA /* BannerViewController.m in Sources */,
+				08AFA66D2664BF0200D39ACA /* NativeAdViewController.m in Sources */,
+				08AFA6692664BF0200D39ACA /* TrekSuprAdTableViewCell.m in Sources */,
+				08AFA66A2664BF0200D39ACA /* TrekNativeAdTableViewCell.m in Sources */,
+				08AFA6742664BF0200D39ACA /* AdItemViewController.m in Sources */,
+				08AFA6712664BF0200D39ACA /* SuprAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AFA61B2664BDB900D39ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D0896D2664C7E3003CC049 /* BannerViewController.swift in Sources */,
+				08D089572664C79A003CC049 /* TrekSuprAdTableViewCell.swift in Sources */,
+				08AFA6262664BDB900D39ACA /* ViewController.swift in Sources */,
+				08D0895A2664C79A003CC049 /* TrekNativeAdTableViewCell.swift in Sources */,
+				08AFA6222664BDB900D39ACA /* AppDelegate.swift in Sources */,
+				08D089542664C79A003CC049 /* AdItemViewController.swift in Sources */,
+				08D089532664C79A003CC049 /* SuprAdViewController.swift in Sources */,
+				08D089502664C79A003CC049 /* NativeAdViewController.swift in Sources */,
+				08AFA6242664BDB900D39ACA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08AFA60A2664BCBF00D39ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AFA60B2664BCBF00D39ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08AFA60F2664BCC000D39ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AFA6102664BCC000D39ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08AFA6272664BDB900D39ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AFA6282664BDB900D39ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08AFA62C2664BDBB00D39ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AFA62D2664BDBB00D39ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08AFA6152664BCC000D39ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08AFA6162664BCC000D39ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08AFA6182664BCC000D39ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A98F4202BDCEBF019B76650 /* Pods-AdMobMediation_v8.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				INFOPLIST_FILE = AdMobMediation_v8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aotter.AdMobMediation-v8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08AFA6192664BCC000D39ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9274805CBD84063BA80403 /* Pods-AdMobMediation_v8.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				INFOPLIST_FILE = AdMobMediation_v8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aotter.AdMobMediation-v8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08AFA6312664BDBB00D39ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B946CCAE7C63BC08031645B /* Pods-AdMobMediation_v8_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				INFOPLIST_FILE = AdMobMediation_v8_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aotter.AdMobMediation-v8-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "AdMobMediation_v8_Swift/AdMobMediation_v8_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08AFA6322664BDBB00D39ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9D9B4AB9AB39DE0D3FC3F2 /* Pods-AdMobMediation_v8_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
+				INFOPLIST_FILE = AdMobMediation_v8_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aotter.AdMobMediation-v8-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "AdMobMediation_v8_Swift/AdMobMediation_v8_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AFA5F92664BCBF00D39ACA /* Build configuration list for PBXProject "AdMobMediation_v8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AFA6152664BCC000D39ACA /* Debug */,
+				08AFA6162664BCC000D39ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AFA6172664BCC000D39ACA /* Build configuration list for PBXNativeTarget "AdMobMediation_v8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AFA6182664BCC000D39ACA /* Debug */,
+				08AFA6192664BCC000D39ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AFA6302664BDBB00D39ACA /* Build configuration list for PBXNativeTarget "AdMobMediation_v8_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AFA6312664BDBB00D39ACA /* Debug */,
+				08AFA6322664BDBB00D39ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08AFA5F62664BCBF00D39ACA /* Project object */;
+}

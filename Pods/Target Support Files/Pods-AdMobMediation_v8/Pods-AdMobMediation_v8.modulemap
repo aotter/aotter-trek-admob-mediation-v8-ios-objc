@@ -1,0 +1,6 @@
+framework module Pods_AdMobMediation_v8 {
+  umbrella header "Pods-AdMobMediation_v8-umbrella.h"
+
+  export *
+  module * { export * }
+}
