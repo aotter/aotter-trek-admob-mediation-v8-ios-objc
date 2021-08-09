@@ -344,7 +344,7 @@
 				08AFA5FA2664BCBF00D39ACA /* Sources */,
 				08AFA5FB2664BCBF00D39ACA /* Frameworks */,
 				08AFA5FC2664BCBF00D39ACA /* Resources */,
-				9ED524413DB96DD47A5D291B /* [CP] Embed Pods Frameworks */,
+				C763F006AA9F752E23CA1597 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -448,7 +448,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9ED524413DB96DD47A5D291B /* [CP] Embed Pods Frameworks */ = {
+		C763F006AA9F752E23CA1597 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -704,6 +704,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				INFOPLIST_FILE = AdMobMediation_v8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -723,6 +724,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				INFOPLIST_FILE = AdMobMediation_v8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -743,6 +745,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				INFOPLIST_FILE = AdMobMediation_v8_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,6 +770,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UX5VYFQ2PJ;
 				INFOPLIST_FILE = AdMobMediation_v8_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
