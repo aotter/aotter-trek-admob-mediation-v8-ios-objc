@@ -74,7 +74,13 @@ static NSString *const TestNativeAdUnit = @"You Native ad unit";
 }
 
 - (void)adLoaderLoadRequest {
-    [self.adLoader loadRequest:[GADRequest request]];
+   
+    GADRequest *request = [GADRequest request];
+    GADCustomEventExtras *extra = [[GADCustomEventExtras alloc] init];
+    [extra setExtras:@{@"category":@"navite_movie"} forLabel:@"AotterTrekGADCustomEventNativeAd"];
+    [request registerAdNetworkExtras:extra];
+    
+    [self.adLoader loadRequest:request];
 }
 
 #pragma mark - Action

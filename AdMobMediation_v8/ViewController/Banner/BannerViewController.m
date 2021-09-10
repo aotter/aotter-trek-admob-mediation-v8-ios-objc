@@ -37,7 +37,17 @@ static NSString *const BannerAdUnit = @"You banner ad unit";
     _gadBannerView.delegate = self;
     _gadBannerView.rootViewController = self;
     _gadBannerView.adUnitID = BannerAdUnit;
-    [_gadBannerView loadRequest:[GADRequest request]];
+    
+    [self bannerLoadRequest];
+}
+
+-(void)bannerLoadRequest {
+    GADRequest *request = [GADRequest request];
+    GADCustomEventExtras *extra = [[GADCustomEventExtras alloc] init];
+    [extra setExtras:@{@"category":@"banner_movie"} forLabel:@"AotterTrekGADCustomEventBannerAd"];
+    [request registerAdNetworkExtras:extra];
+    
+    [_gadBannerView loadRequest:request];
 }
 
 - (void)setupBannerViewUI:(GADBannerView *)bannerView {
