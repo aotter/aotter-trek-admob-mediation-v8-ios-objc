@@ -27,6 +27,9 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     TKAdNative *_adNatve;
     NSMutableDictionary *_requeatMeta;
 }
+
+@property NSString *contentTitle;
+@property NSString *contentUrl;
 @end
 
 @implementation AotterTrekGADCustomEventNativeAd
@@ -38,6 +41,18 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     NSString *category = @"";
     if ([[request.additionalParameters allKeys]containsObject:@"category"]) {
         category = request.additionalParameters[@"category"];
+    }
+    if([[request.additionalParameters allKeys] containsObject:@"contentTitle"]){
+        NSString *_title = request.additionalParameters[@"contentTitle"];
+        if([_title isKindOfClass:[NSString class]]){
+            self.contentTitle = _title;
+        }
+    }
+    if([[request.additionalParameters allKeys] containsObject:@"contentUrl"]){
+        NSString *_url = request.additionalParameters[@"contentUrl"];
+        if([_url isKindOfClass:[NSString class]]){
+            self.contentUrl = _url;
+        }
     }
     
     // update sdk need to update mediationVersion and mediationVersionCode
@@ -110,6 +125,16 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     
     _adNatve = [[TKAdNative alloc] initWithPlace:_adPlace category:category];
     _adNatve.requestMeta = _requeatMeta;
+    if(self.contentTitle){
+        if([_adNatve respondsToSelector:@selector(setAdContentTitle:)]){
+            [_adNatve setAdContentTitle:self.contentTitle];
+        }
+    }
+    if(self.contentUrl){
+        if([_adNatve respondsToSelector:@selector(setAdContentUrl:)]){
+            [_adNatve setAdContentUrl:self.contentUrl];
+        }
+    }
     
     [_adNatve fetchAdWithCallback:^(NSDictionary *adData, TKAdError *adError) {
         if(adError){
@@ -139,6 +164,16 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     
     _suprAd = [[TKAdSuprAd alloc] initWithPlace:adPlace category:category];
     _suprAd.requestMeta = _requeatMeta;
+    if(self.contentTitle){
+        if([_suprAd respondsToSelector:@selector(setAdContentTitle:)]){
+            [_suprAd setAdContentTitle:self.contentTitle];
+        }
+    }
+    if(self.contentUrl){
+        if([_suprAd respondsToSelector:@selector(setAdContentUrl:)]){
+            [_suprAd setAdContentUrl:self.contentUrl];
+        }
+    }
     
     [_suprAd registerPresentingViewController:rootViewController];
     

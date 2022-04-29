@@ -1,10 +1,8 @@
 PODS:
-  - AotterTrek-iOS-SDK (3.7.0-beta2):
-    - GoogleAds-IMA-iOS-SDK (= 3.13.0)
+  - AotterTrek-iOS-SDK (3.7.1)
   - Google-Mobile-Ads-SDK (8.8.0):
     - GoogleAppMeasurement (< 9.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleAds-IMA-iOS-SDK (3.13.0)
   - GoogleAppMeasurement (8.11.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.11.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
@@ -54,7 +52,7 @@ PODS:
   - SDWebImage/Core (5.11.1)
 
 DEPENDENCIES:
-  - AotterTrek-iOS-SDK (= 3.7.0-beta2)
+  - AotterTrek-iOS-SDK (= 3.7.1)
   - Google-Mobile-Ads-SDK (= 8.8.0)
   - SDWebImage (= 5.11.1)
 
@@ -62,7 +60,6 @@ SPEC REPOS:
   trunk:
     - AotterTrek-iOS-SDK
     - Google-Mobile-Ads-SDK
-    - GoogleAds-IMA-iOS-SDK
     - GoogleAppMeasurement
     - GoogleUserMessagingPlatform
     - GoogleUtilities
@@ -71,9 +68,8 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
-  AotterTrek-iOS-SDK: cdd43b5ea59246265bc125aaf965cc732fdc02bb
+  AotterTrek-iOS-SDK: bf689814962e0007cb21cd573b5f79d52fd55404
   Google-Mobile-Ads-SDK: 1fccd8fd76aca1cef9bfe0711124c9731dad9307
-  GoogleAds-IMA-iOS-SDK: b8d3693d370edcbd1440c827897c2b2a0b76673d
   GoogleAppMeasurement: aa3cb422fab2b05d2efac543a5720d1a85b9dea5
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
@@ -81,6 +77,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
-PODFILE CHECKSUM: d6a7e525c23bdde6e37635b6ecb88a2a9636e3ad
+PODFILE CHECKSUM: 7701bff87af6477f6e416c462fab071350f666f1
 
 COCOAPODS: 1.11.2

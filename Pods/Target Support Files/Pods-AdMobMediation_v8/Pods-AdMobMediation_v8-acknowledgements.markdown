@@ -30,11 +30,6 @@ SOFTWARE.
 
 Copyright 2021 Google
 
-## GoogleAds-IMA-iOS-SDK
-
-Copyright 2015 Google, Inc. All rights reserved.
-
-
 ## GoogleAppMeasurement
 
 Copyright 2021 Google
