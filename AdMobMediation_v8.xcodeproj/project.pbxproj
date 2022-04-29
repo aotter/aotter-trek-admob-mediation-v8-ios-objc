@@ -46,6 +46,10 @@
 		08D0895A2664C79A003CC049 /* TrekNativeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D0894D2664C79A003CC049 /* TrekNativeAdTableViewCell.swift */; };
 		08D0896D2664C7E3003CC049 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D0896B2664C7E3003CC049 /* BannerViewController.swift */; };
 		08D0896E2664C7E3003CC049 /* BannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D0896C2664C7E3003CC049 /* BannerViewController.xib */; };
+		11D91DAD279BF9730060B189 /* AotterTrekGADMediatedNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D91DA6279BF9710060B189 /* AotterTrekGADMediatedNativeAd.m */; };
+		11D91DAE279BF9730060B189 /* AotterTrekGADCustomEventBannerAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D91DA7279BF9720060B189 /* AotterTrekGADCustomEventBannerAd.m */; };
+		11D91DAF279BF9730060B189 /* AotterTrekGADCustomEventNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D91DA8279BF9720060B189 /* AotterTrekGADCustomEventNativeAd.m */; };
+		11D91DB0279BF9730060B189 /* AotterTrekGADMediatedSuprAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D91DA9279BF9720060B189 /* AotterTrekGADMediatedSuprAd.m */; };
 		2534A6874CB454BA4E111A19 /* Pods_AdMobMediation_v8_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE31A99DF46D9FF70854FC7 /* Pods_AdMobMediation_v8_Swift.framework */; };
 		77696F65829C1E20561E3B16 /* Pods_AdMobMediation_v8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152203F580B357B1BDD51AAB /* Pods_AdMobMediation_v8.framework */; };
 /* End PBXBuildFile section */
@@ -104,6 +108,14 @@
 		08D0894D2664C79A003CC049 /* TrekNativeAdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekNativeAdTableViewCell.swift; sourceTree = "<group>"; };
 		08D0896B2664C7E3003CC049 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		08D0896C2664C7E3003CC049 /* BannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerViewController.xib; sourceTree = "<group>"; };
+		11D91DA5279BF9710060B189 /* AotterTrekGADCustomEventNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekGADCustomEventNativeAd.h; sourceTree = "<group>"; };
+		11D91DA6279BF9710060B189 /* AotterTrekGADMediatedNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekGADMediatedNativeAd.m; sourceTree = "<group>"; };
+		11D91DA7279BF9720060B189 /* AotterTrekGADCustomEventBannerAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekGADCustomEventBannerAd.m; sourceTree = "<group>"; };
+		11D91DA8279BF9720060B189 /* AotterTrekGADCustomEventNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekGADCustomEventNativeAd.m; sourceTree = "<group>"; };
+		11D91DA9279BF9720060B189 /* AotterTrekGADMediatedSuprAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AotterTrekGADMediatedSuprAd.m; sourceTree = "<group>"; };
+		11D91DAA279BF9720060B189 /* AotterTrekGADMediatedSuprAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekGADMediatedSuprAd.h; sourceTree = "<group>"; };
+		11D91DAB279BF9730060B189 /* AotterTrekGADCustomEventBannerAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekGADCustomEventBannerAd.h; sourceTree = "<group>"; };
+		11D91DAC279BF9730060B189 /* AotterTrekGADMediatedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AotterTrekGADMediatedNativeAd.h; sourceTree = "<group>"; };
 		152203F580B357B1BDD51AAB /* Pods_AdMobMediation_v8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMobMediation_v8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9274805CBD84063BA80403 /* Pods-AdMobMediation_v8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMobMediation_v8.release.xcconfig"; path = "Target Support Files/Pods-AdMobMediation_v8/Pods-AdMobMediation_v8.release.xcconfig"; sourceTree = "<group>"; };
 		3DE31A99DF46D9FF70854FC7 /* Pods_AdMobMediation_v8_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMobMediation_v8_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +181,7 @@
 				08AFA60F2664BCC000D39ACA /* LaunchScreen.storyboard */,
 				08AFA6122664BCC000D39ACA /* Info.plist */,
 				08AFA6132664BCC000D39ACA /* main.m */,
+				11D91DA4279BF95F0060B189 /* static admob files */,
 			);
 			path = AdMobMediation_v8;
 			sourceTree = "<group>";
@@ -228,9 +241,9 @@
 		08AFA6592664BF0200D39ACA /* NativeAd */ = {
 			isa = PBXGroup;
 			children = (
+				08AFA65C2664BF0200D39ACA /* NativeAdViewController.h */,
 				08AFA65A2664BF0200D39ACA /* NativeAdViewController.m */,
 				08AFA65B2664BF0200D39ACA /* NativeAdViewController.xib */,
-				08AFA65C2664BF0200D39ACA /* NativeAdViewController.h */,
 			);
 			path = NativeAd;
 			sourceTree = "<group>";
@@ -238,9 +251,9 @@
 		08AFA65F2664BF0200D39ACA /* SuprAd */ = {
 			isa = PBXGroup;
 			children = (
-				08AFA6602664BF0200D39ACA /* SuprAdViewController.xib */,
-				08AFA6612664BF0200D39ACA /* SuprAdViewController.m */,
 				08AFA6622664BF0200D39ACA /* SuprAdViewController.h */,
+				08AFA6612664BF0200D39ACA /* SuprAdViewController.m */,
+				08AFA6602664BF0200D39ACA /* SuprAdViewController.xib */,
 			);
 			path = SuprAd;
 			sourceTree = "<group>";
@@ -311,6 +324,21 @@
 				08D0896C2664C7E3003CC049 /* BannerViewController.xib */,
 			);
 			path = Banner;
+			sourceTree = "<group>";
+		};
+		11D91DA4279BF95F0060B189 /* static admob files */ = {
+			isa = PBXGroup;
+			children = (
+				11D91DAB279BF9730060B189 /* AotterTrekGADCustomEventBannerAd.h */,
+				11D91DA7279BF9720060B189 /* AotterTrekGADCustomEventBannerAd.m */,
+				11D91DA5279BF9710060B189 /* AotterTrekGADCustomEventNativeAd.h */,
+				11D91DA8279BF9720060B189 /* AotterTrekGADCustomEventNativeAd.m */,
+				11D91DAC279BF9730060B189 /* AotterTrekGADMediatedNativeAd.h */,
+				11D91DA6279BF9710060B189 /* AotterTrekGADMediatedNativeAd.m */,
+				11D91DAA279BF9720060B189 /* AotterTrekGADMediatedSuprAd.h */,
+				11D91DA9279BF9720060B189 /* AotterTrekGADMediatedSuprAd.m */,
+			);
+			path = "static admob files";
 			sourceTree = "<group>";
 		};
 		F2AEEA87FEA3D1E87A10EF89 /* Frameworks */ = {
@@ -518,12 +546,16 @@
 			files = (
 				08AFA6092664BCBF00D39ACA /* ViewController.m in Sources */,
 				08AFA6032664BCBF00D39ACA /* AppDelegate.m in Sources */,
+				11D91DAE279BF9730060B189 /* AotterTrekGADCustomEventBannerAd.m in Sources */,
 				08AFA6142664BCC000D39ACA /* main.m in Sources */,
+				11D91DAD279BF9730060B189 /* AotterTrekGADMediatedNativeAd.m in Sources */,
+				11D91DAF279BF9730060B189 /* AotterTrekGADCustomEventNativeAd.m in Sources */,
 				08AFA6062664BCBF00D39ACA /* SceneDelegate.m in Sources */,
 				08AFA67B2664BFD300D39ACA /* BannerViewController.m in Sources */,
 				08AFA66D2664BF0200D39ACA /* NativeAdViewController.m in Sources */,
 				08AFA6692664BF0200D39ACA /* TrekSuprAdTableViewCell.m in Sources */,
 				08AFA66A2664BF0200D39ACA /* TrekNativeAdTableViewCell.m in Sources */,
+				11D91DB0279BF9730060B189 /* AotterTrekGADMediatedSuprAd.m in Sources */,
 				08AFA6742664BF0200D39ACA /* AdItemViewController.m in Sources */,
 				08AFA6712664BF0200D39ACA /* SuprAdViewController.m in Sources */,
 			);

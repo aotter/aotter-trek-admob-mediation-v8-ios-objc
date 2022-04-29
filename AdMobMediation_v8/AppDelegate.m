@@ -33,9 +33,13 @@
     // Aotter SDK init
     
     // Please fill in you ClientId and secret
-    [[AotterTrek sharedAPI] initTrekServiceWithClientId:@"Your Client id"
-                                                   secret:@"Your secret"];
+    [[AotterTrek sharedAPI] initTrekServiceWithClientId:@"21tgwWwuzFYiD4ko5Klr"
+                                                 secret:@"fD8P20gzWYrlbuwWklRkicYcNwlWZSZwV+iHj3TzGSzzyfgTWmVR5trs5F1Dp+x9tX2jxq44"
+                                          myAppClientId:@"21tgwWwuzFYiD4ko5Klr"
+                                      myAppClientSecret:@"fD8P20gzWYrlbuwWklRkicYcNwlWZSZwV+iHj3TzGSzzyfgTWmVR5trs5F1Dp+x9tX2jxq44"
+     ];
     
+    [[AotterTrek sharedAPI] performSelector:@selector(enableLoggerLevelDevDetail)];
     [[AotterTrek sharedAPI] performSelector:@selector(enableLoggerDevNetwork)];
     
     

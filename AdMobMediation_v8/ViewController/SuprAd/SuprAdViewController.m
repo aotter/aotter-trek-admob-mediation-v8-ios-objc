@@ -13,7 +13,7 @@
 
 static NSInteger googleMediationSuprAdPosition = 8;
 
-static NSString *const TestSuprAdUnit = @"You Supr ad unit";
+static NSString *const TestSuprAdUnit = @"ca-app-pub-8836593984677243/2978830985";
 
 @interface SuprAdViewController ()<GADNativeAdLoaderDelegate, UITableViewDataSource, UITableViewDelegate> {
     

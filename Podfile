@@ -7,10 +7,10 @@ target 'AdMobMediation_v8' do
 
   # Pods for AdMobMediation_v8
   
-  pod 'AotterTrek-iOS-SDK','3.6.3'
+  pod 'AotterTrek-iOS-SDK','3.7.0-beta2' #3.6.3
   pod 'Google-Mobile-Ads-SDK','8.8.0'
-  pod 'TrekSDKAdMobMediationObjc','1.0.6'
-  pod 'SDWebImage'
+  # pod 'TrekSDKAdMobMediationObjc','1.0.6'
+  pod 'SDWebImage', '5.11.1'
 
 end
 

@@ -1,40 +1,47 @@
 PODS:
-  - AotterTrek-iOS-SDK (3.6.3-beta2):
+  - AotterTrek-iOS-SDK (3.7.0-beta2):
     - GoogleAds-IMA-iOS-SDK (= 3.13.0)
   - Google-Mobile-Ads-SDK (8.8.0):
     - GoogleAppMeasurement (< 9.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
   - GoogleAds-IMA-iOS-SDK (3.13.0)
-  - GoogleAppMeasurement (8.5.0):
-    - GoogleAppMeasurement/AdIdSupport (= 8.5.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
-    - GoogleUtilities/MethodSwizzler (~> 7.4)
-    - GoogleUtilities/Network (~> 7.4)
-    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+  - GoogleAppMeasurement (8.11.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
     - nanopb (~> 2.30908.0)
-  - GoogleAppMeasurement/AdIdSupport (8.5.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
-    - GoogleUtilities/MethodSwizzler (~> 7.4)
-    - GoogleUtilities/Network (~> 7.4)
-    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+  - GoogleAppMeasurement/AdIdSupport (8.11.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 8.11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (8.11.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
     - nanopb (~> 2.30908.0)
   - GoogleUserMessagingPlatform (2.0.0)
-  - GoogleUtilities/AppDelegateSwizzler (7.5.0):
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.5.0):
+  - GoogleUtilities/Environment (7.7.0):
     - PromisesObjC (< 3.0, >= 1.2)
-  - GoogleUtilities/Logger (7.5.0):
+  - GoogleUtilities/Logger (7.7.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (7.5.0):
+  - GoogleUtilities/MethodSwizzler (7.7.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (7.5.0):
+  - GoogleUtilities/Network (7.7.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.5.0)"
-  - GoogleUtilities/Reachability (7.5.0):
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
     - GoogleUtilities/Logger
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -45,13 +52,11 @@ PODS:
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - TrekSDKAdMobMediationObjc (1.0.6-beta4)
 
 DEPENDENCIES:
-  - AotterTrek-iOS-SDK (= 3.6.3-beta2)
+  - AotterTrek-iOS-SDK (= 3.7.0-beta2)
   - Google-Mobile-Ads-SDK (= 8.8.0)
-  - SDWebImage
-  - TrekSDKAdMobMediationObjc (= 1.0.6-beta4)
+  - SDWebImage (= 5.11.1)
 
 SPEC REPOS:
   trunk:
@@ -64,20 +69,18 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
     - SDWebImage
-    - TrekSDKAdMobMediationObjc
 
 SPEC CHECKSUMS:
-  AotterTrek-iOS-SDK: 95f10c2290bbb3c3290756286f5afd07353c0c8e
+  AotterTrek-iOS-SDK: cdd43b5ea59246265bc125aaf965cc732fdc02bb
   Google-Mobile-Ads-SDK: 1fccd8fd76aca1cef9bfe0711124c9731dad9307
   GoogleAds-IMA-iOS-SDK: b8d3693d370edcbd1440c827897c2b2a0b76673d
-  GoogleAppMeasurement: 8d10c1c470fcb0e5143ed74fddd164f0a0384800
+  GoogleAppMeasurement: aa3cb422fab2b05d2efac543a5720d1a85b9dea5
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
-  GoogleUtilities: eea970f4a389963963bffe8d8fabe43540678b9c
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  TrekSDKAdMobMediationObjc: aa998e09078343e79708e3f0ae3c50bbc891edc5
 
-PODFILE CHECKSUM: 39250171d0e5ca07e5f9f48875cfb5768184caac
+PODFILE CHECKSUM: d6a7e525c23bdde6e37635b6ecb88a2a9636e3ad
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

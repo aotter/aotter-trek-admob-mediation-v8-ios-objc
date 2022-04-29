@@ -13,7 +13,7 @@
 
 static NSInteger googleMediationNativeAdPosition = 6;
 
-static NSString *const TestNativeAdUnit = @"You Native ad unit";
+static NSString *const TestNativeAdUnit = @"ca-app-pub-8836593984677243/8365089229";
 
 @interface NativeAdViewController ()<GADNativeAdLoaderDelegate, UITableViewDataSource, UITableViewDelegate> {
     
@@ -62,7 +62,7 @@ static NSString *const TestNativeAdUnit = @"You Native ad unit";
 #pragma mark : Setup GADAdLoader
 
 - (void)setupGADAdLoader {
-
+    GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ kGADSimulatorID ];
     self.adLoader = [[GADAdLoader alloc]initWithAdUnitID: TestNativeAdUnit
                                       rootViewController: self
                                                  adTypes: @[kGADAdLoaderAdTypeNative]
