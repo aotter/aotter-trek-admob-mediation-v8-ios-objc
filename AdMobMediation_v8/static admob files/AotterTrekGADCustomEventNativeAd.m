@@ -127,12 +127,12 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     _adNatve.requestMeta = _requeatMeta;
     if(self.contentTitle){
         if([_adNatve respondsToSelector:@selector(setAdContentTitle:)]){
-            [_adNatve setAdContentTitle:self.contentTitle];
+            [_adNatve performSelector:@selector(setAdContentUrl:) withObject:self.contentUrl];
         }
     }
     if(self.contentUrl){
         if([_adNatve respondsToSelector:@selector(setAdContentUrl:)]){
-            [_adNatve setAdContentUrl:self.contentUrl];
+            [_adNatve performSelector:@selector(setAdContentUrl:) withObject:self.contentUrl];
         }
     }
     
@@ -166,12 +166,12 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     _suprAd.requestMeta = _requeatMeta;
     if(self.contentTitle){
         if([_suprAd respondsToSelector:@selector(setAdContentTitle:)]){
-            [_suprAd setAdContentTitle:self.contentTitle];
+            [_suprAd performSelector:@selector(setAdContentTitle:) withObject:self.contentTitle];
         }
     }
     if(self.contentUrl){
         if([_suprAd respondsToSelector:@selector(setAdContentUrl:)]){
-            [_suprAd setAdContentUrl:self.contentUrl];
+            [_suprAd performSelector:@selector(setAdContentUrl:) withObject:self.contentUrl];
         }
     }
     

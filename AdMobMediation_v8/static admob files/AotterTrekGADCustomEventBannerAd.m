@@ -86,12 +86,12 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     _suprAd.requestMeta = _requeatMeta;
     if(self.contentTitle){
         if([_suprAd respondsToSelector:@selector(setAdContentTitle:)]){
-            [_suprAd setAdContentTitle:self.contentTitle];
+            [_suprAd performSelector:@selector(setAdContentTitle:) withObject:self.contentTitle];
         }
     }
     if(self.contentUrl){
         if([_suprAd respondsToSelector:@selector(setAdContentUrl:)]){
-            [_suprAd setAdContentUrl:self.contentUrl];
+            [_suprAd performSelector:@selector(setAdContentUrl:) withObject:self.contentUrl];
         }
     }
     
