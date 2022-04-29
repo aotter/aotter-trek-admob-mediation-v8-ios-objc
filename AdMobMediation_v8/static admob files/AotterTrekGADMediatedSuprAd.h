@@ -11,6 +11,9 @@
 #if AotterServiceTestRunning
     #import "TKAdSuprAd.h"
     #import "TKNativeAdConstant.h"
+#elif AotterServiceTestV8
+    #import "TKAdSuprAd.h"
+    #import "TKNativeAdConstant.h"
 #else
     #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 #endif

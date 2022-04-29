@@ -11,6 +11,10 @@
 
 #if AotterServiceTestRunning
     #import "TKAdNative.h"
+    #import "TKAdSuprAd.h"
+#elif AotterServiceTestV8
+    #import "TKAdNative.h"
+    #import "TKAdSuprAd.h"
 #else
     #import <AotterTrek-iOS-SDK/AotterTrek-iOS-SDK.h>
 #endif
