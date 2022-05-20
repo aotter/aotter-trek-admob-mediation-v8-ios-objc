@@ -222,6 +222,7 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
  */
 
 #include <stdatomic.h>
+#define ATOMIC_FLAG_INIT { 0 }
 
 @interface AotterTrekGADCustomEventNativeAd()<GADMediationNativeAd> {
     TKAdSuprAd *_suprAd;
@@ -245,25 +246,36 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
 @implementation AotterTrekGADCustomEventNativeAd
 
 + (GADVersionNumber)adSDKVersion {
-    GADVersionNumber a;
-    a.majorVersion = 1;
-    a.minorVersion = 2;
-    a.patchVersion = 3;
-    return a;
+    //TODO: get version string from AotterTrek SDK
+    NSString *versionString = @"1.0.0";
+    NSArray *versionComponents = [versionString componentsSeparatedByString:@"."];
+    GADVersionNumber version = {0};
+    if (versionComponents.count >= 3) {
+      version.majorVersion = [versionComponents[0] integerValue];
+      version.minorVersion = [versionComponents[1] integerValue];
+      version.patchVersion = [versionComponents[2] integerValue];
+    }
+    return version;
 }
 
 + (GADVersionNumber)adapterVersion {
-    GADVersionNumber a;
-    a.majorVersion = 1;
-    a.minorVersion = 2;
-    a.patchVersion = 3;
-    return a;
+    //TODO: get version string from this admob statics
+    NSString *versionString = @"1.0.0";
+    NSArray *versionComponents = [versionString componentsSeparatedByString:@"."];
+    GADVersionNumber version = {0};
+    if (versionComponents.count >= 3) {
+      version.majorVersion = [versionComponents[0] integerValue];
+      version.minorVersion = [versionComponents[1] integerValue];
+      version.patchVersion = [versionComponents[2] integerValue];
+    }
+    return version;
 }
+
 + (nullable Class<GADAdNetworkExtras>)networkExtrasClass {
     return [GADCustomEventExtras class];
 }
 
-#define ATOMIC_FLAG_INIT { 0 }
+
 
 -(void)loadNativeAdForAdConfiguration:(GADMediationNativeAdConfiguration *)adConfiguration completionHandler:(GADMediationNativeLoadCompletionHandler)completionHandler{
     //TODO: refactor with singleton version handler
@@ -350,9 +362,19 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     else {
         [self fetchTKAdNative];
     }
-    
 }
 
+#pragma mark - MediatedAd Delegates
+
+-(BOOL)handlesUserClicks{
+    return YES;
+}
+
+-(BOOL)handlesUserImpressions{
+    return YES;
+}
+
+#pragma mark - Trek Ad Helpers
 
 - (void)fetchTKAdNative{
     if (_adNatve != nil) {
@@ -439,6 +461,7 @@ static NSString *const customEventErrorDomain = @"com.aotter.AotterTrek.GADCusto
     }];
     
 }
+
 
 -(void)getNotification:(NSNotification *)notification{
     if (_suprAd != nil) {
